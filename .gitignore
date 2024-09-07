@@ -1,0 +1,52 @@
+# C++ object files
+*.o
+*.obj
+
+# C++ precompiled headers
+*.gch
+*.pch
+
+# C++ static libraries
+*.a
+
+# C++ dynamic libraries
+*.so
+*.dll
+*.dylib
+
+# Executable files
+*.out
+*.exe
+*.app
+
+# Debugging files
+*.log
+*.dSYM/
+
+# Build directories
+build/
+bin/
+Debug/
+Release/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Neovim files
+*.un~           # Backup files
+*.swp           # Swap files
+*.swo           # Swap files
+*.tags          # Tags files
+*.viminfo       # Vim info files
+
+# IDE and editor files
+.vscode/
+*.ncb
+*.suo
+*.user
+*.workspace
+
+
+test.cpp
