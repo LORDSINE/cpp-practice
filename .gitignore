@@ -50,3 +50,6 @@ Release/
 
 
 test.cpp
+
+# Ignore all files with no extension
+*.[^.]*
