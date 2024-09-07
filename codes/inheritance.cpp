@@ -1,7 +1,4 @@
-#include <cstdlib>
 #include <iostream>
-#include <iterator>
-#include <ostream>
 #include <string>
 
 class Person {
@@ -18,6 +15,7 @@ class Person {
 
 };
 
+//single inheritance
 class Student : public Person {
 
   private:
@@ -55,6 +53,7 @@ class Employee {
 
 };
 
+//hybrid inheritance (multiple inheritance where one base class is single inherited)
 class workingStudent : public Student, public Employee {
 
   public:
