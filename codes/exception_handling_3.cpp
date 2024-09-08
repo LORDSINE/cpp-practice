@@ -6,7 +6,7 @@
 #include <stdexcept>
 #include <exception>
 
-int isNum(std::string msg) {
+int isNum(std::string msg) noexcept(true) {
 
   if (msg == "") {
     return 0;
@@ -20,7 +20,7 @@ int isNum(std::string msg) {
   return 1;
 }
 
-void process(std::string msg) {
+void process(std::string msg) noexcept(false) {
 
   int n;
 
