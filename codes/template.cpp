@@ -84,6 +84,10 @@ int main() {
   std::cout << "The sorted float array:";
   display(f, 4);
 
+  delete[] in;
+  delete[] d;
+  delete[] f;
+
   return EXIT_SUCCESS;
 
 }
