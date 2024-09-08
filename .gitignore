@@ -23,31 +23,10 @@
 *.log
 *.dSYM/
 
-# Build directories
-build/
-bin/
-Debug/
-Release/
-
 # Temporary files
 *.tmp
 *.swp
 *.swo
-
-# Neovim files
-*.un~           # Backup files
-*.swp           # Swap files
-*.swo           # Swap files
-*.tags          # Tags files
-*.viminfo       # Vim info files
-
-# IDE and editor files
-.vscode/
-*.ncb
-*.suo
-*.user
-*.workspace
-
 
 test.cpp
 
