@@ -8,7 +8,7 @@ void chk1(int n) noexcept(false) {
   if (n < 0) {
     throw std::runtime_error("Negative number!!!");
   } else {
-    throw std::runtime_error("Out of range!!!(smaller than least value of range)");
+    throw std::out_of_range("Out of range!!!(smaller than least value of range)");
   }
 }
 
@@ -16,7 +16,7 @@ void chk2(int n) noexcept(false) {
   if (n < 40) {
     std::cout << "Number is within range!!!" << std::endl;
   } else {
-    throw std::runtime_error("Out of range!!!(larger than greatest value of range)");
+    throw std::out_of_range("Out of range!!!(larger than greatest value of range)");
   }
 }
 
